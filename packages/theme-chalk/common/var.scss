@@ -1,0 +1,22 @@
+ @import "../mixins/config.scss";
+$--color-primary: #409EFF;
+$--color-white: #FFFFFF;
+$--color-black: #000000;
+$--color-success: #67c23a;
+$--color-warning: #e6a23c;
+$--color-danger: #f56c6c;
+$--color-error: #f56c6c;
+$--color-info: #909399;
+
+$--border-color-lighter: #EBEEF5 !default;
+
+/* Card
+--------------------------*/
+/// color||Color|0
+$--card-border-color: $--border-color-lighter  !default;
+$--card-border-radius: 4px !default;
+/// padding||Spacing|3
+$--card-padding: 20px !default;
+
+$--box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
+$--card-padding: 20px !default;

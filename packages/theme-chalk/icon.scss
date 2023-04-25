@@ -1,0 +1,102 @@
+@import "./mixins/config.scss";
+// @font-face {
+//     font-family: "ac-icons"; /* Project id 3953843 */
+//     src: url('./fonts/iconfont.woff2') format('woff2'),
+//          url('./fonts/iconfont.woff') format('woff'),
+//          url('./fonts/iconfont.ttf') format('truetype');
+//   }
+  
+//   [class^='#{$namespace}-icon-'] {
+//     font-family: "ac-icons" !important;
+//     font-size: 16px;
+//     font-style: normal;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//   }
+  
+//   .ac-icon-jiazai:before {
+//     content: "\e629";
+//   }
+  
+//   .ac-icon-jiazai1:before {
+//     content: "\e603";
+//   }
+
+  @font-face {
+    font-family: "ac-icons"; /* Project id 3953843 */
+    src: url('./fonts/iconfont.woff2') format('woff2'),
+         url('./fonts/iconfont.woff') format('woff'),
+         url('./fonts/iconfont.ttf') format('truetype');
+  }
+  
+  [class^='#{$namespace}-icon-'] {
+    font-family: "ac-icons" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ac-icon-jiahao:before {
+    content: "\e726";
+  }
+  
+  .ac-icon-anquantianchong:before {
+    content: "\e670";
+  }
+  
+  .ac-icon-search:before {
+    content: "\e651";
+  }
+  
+  .ac-icon-logout:before {
+    content: "\e60d";
+  }
+  
+  .ac-icon-dianzan:before {
+    content: "\e8ad";
+  }
+  
+  .ac-icon-nan:before {
+    content: "\e8b3";
+  }
+  
+  .ac-icon-nv:before {
+    content: "\e8b4";
+  }
+  
+  .ac-icon-shoucang:before {
+    content: "\e8b9";
+  }
+  
+  .ac-icon-yanjing:before {
+    content: "\e8bf";
+  }
+  
+  .ac-icon-dianzan1:before {
+    content: "\e8c3";
+  }
+  
+  .ac-icon-pinglun:before {
+    content: "\e8c5";
+  }
+  
+  .ac-icon-shijian:before {
+    content: "\e8c6";
+  }
+  
+  .ac-icon-shoucang1:before {
+    content: "\e8c7";
+  }
+  
+  .ac-icon-yanjing1:before {
+    content: "\e8c8";
+  }
+  
+  .ac-icon-remen:before {
+    content: "\e8c9";
+  }
+  
+  .ac-icon-denglu:before {
+    content: "\e7c8";
+  }  

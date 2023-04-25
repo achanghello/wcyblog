@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["src/*","packages/*"],
+  "exclude": ["node_modules", "dist", "public"]
+}
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "esnext",
+//     "strict": true,
+//     "jsx": "preserve",
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "allowSyntheticDefaultImports": true,
+//     "noEmit": true
+//   },
+//   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+//   "exclude": ["node_modules", "dist"]
+// }
